@@ -1,0 +1,51 @@
+*{
+    /* text-align: center; */
+}
+#header{
+    background-color: pink;
+    color:brown;
+    margin: 10px 200px 20px 200px;
+    border-top: 5px double red;
+    border-bottom: 5px double red;
+    height: 50px;
+    padding-top: 18px;
+    padding-bottom: 30px;
+    font-size: xxx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#readinglist{
+    margin: 10px 200px 20px 200px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+#required{
+    display: inline-block;
+    margin: 10px 0px 20px 200px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: black;
+
+}
+#optional{display: inline-block;
+    margin: 10px 0px 20px 0px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: red;
+
+}
+#week1{
+    margin: 10px 200px 20px 200px;
+    border: 3px solid blue;
+    background-color: lightblue;
+    padding: 30px 40px 30px 20px;
+}
+#week2{
+    margin: 10px 200px 20px 200px;
+    border: 3px solid blue;
+    background-color: lightblue;
+    padding: 30px 40px 30px 20px;
+}
