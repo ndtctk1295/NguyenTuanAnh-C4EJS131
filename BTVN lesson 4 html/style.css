@@ -1,0 +1,62 @@
+body{
+  font-family: sans-serif;
+  margin:0;
+}
+#header{
+  background-color: rebeccapurple;
+  color: white;
+
+}
+h1{
+  font-size: 40px;
+  margin: 0px 280px 0px 280px;
+  height: 63px;
+  padding:24px;
+  text-align: left;
+}
+.content{
+  text-align: left;
+  margin:0px 280px 0px 280px;
+}
+#content1{
+  padding-left:24px;
+  text-align: left;
+  margin:0px 280px 0px 280px;
+}
+h2{
+  font-size: 28px;
+  padding-left:24px;
+}
+#image{
+  width: 758px;
+  height: 426px;
+}
+#intro{
+  font-size: 20px;
+  color: rebeccapurple;
+  font-weight: bold;
+}
+#gan5trieu{
+  font-style: italic;
+  background-color: #eddbff;
+}
+#para{
+  color: #757575;
+  line-height: 1.5;
+  margin:0px 100px 0px 0px;
+}
+#button{
+  background-color: rebeccapurple;
+  color: white;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+}
+#footer{
+  padding:24px 280px 24px 280px;
+  text-align: left;
+  margin: 20px 0px 0px 0px;
+  border-top: rebeccapurple 2px 
+  solid;
+}
