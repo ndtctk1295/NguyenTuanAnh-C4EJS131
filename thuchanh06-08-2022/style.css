@@ -1,0 +1,41 @@
+.header{
+    width: 100%;
+    background-color: deepskyblue;
+    color: white;
+    height:50px;
+    text-align: right;
+    position: static;
+    
+}
+#home{
+    position: absolute;
+    right: 330px;
+    top: 20px;
+    
+}
+#about{
+    position: absolute;
+    right: 230px;
+    top: 20px;
+}
+#products{
+    position: absolute;
+    right: 130px;
+    top: 20px;
+}
+#contact{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    
+}
+.link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.link:hover{
+    background-color: #1565C0;
+}

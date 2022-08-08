@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--ví dụ 1 về float: ở đây ảnh của float 1 mặc dù là thẻ div nhưng lại được thu gọn lại vừa với size của ảnh
+       và dịch sang bên trái, phần bên phải nếu như dùng text-align: left thì phần bên trái vẫn bị thừa ra và sẽ không có
+      không gian để cho phần div của p1 bên dưới-->
+    <section>
+      <div id="float1">
+        <img
+          src="https://resources.mindx.edu.vn/uploads/images/VTT_2414.jpg"
+          alt="Img"
+          width="240px"
+          height="160.2px"
+        />
+      </div>
+      <!--phần div này chỉ cần chỉnh size không cần phải chỉnh lại bố cục gì vì nó đã tự động chỉnh lại theo bố cục
+      của phần div đã được float: left ở trên-->
+      <div id="p1">
+        MindX, startup lĩnh vực EdTech (công nghệ giáo dục) vừa hoàn tất vòng
+        gọi vốn Series A với khoản tiền đầu tư trị giá 3 triệu USD, được dẫn dắt
+        bởi quỹ đầu tư mạo hiểm Wavemaker Partners, cùng sự tham gia của Công ty
+        Chứng khoán Thiên Việt (TVS) và Beacon Fund.
+      </div>
+    </section>
+    <!-- phần div float 2 này nếu muốn bắt đầu ở một dòng mới thì vị trí mặc định ban đầu của nó là dính sát 
+      vào ngay gần vị trí của anh ở div float 1 vậy nên nếu muốn xuống dòng dưới thì phải dùng clear: left để
+      nó tìm đến vị trí trống ở bên trái mà không ảnh hưởng đến bố cục của những phần khác, cụ thể ở đây là dòng dưới.
+      Sau đó nó đã được float: right để đẩy hết sang bên phải-->
+    <div id="float2">
+      <img
+        src="https://resources.mindx.edu.vn/uploads/images/VTT_2414.jpg"
+        alt="Img"
+        width="240px"
+        height="160.2px"
+      />
+    </div>
+    <!--ở đây phần div p2 này đã được clear: right nên nó sẽ xuống dòng dưới để tìm khoảng trống mà trống
+    phần ở bên phải của nó. Chính vì vậy nên cả phần văn bản sẽ năm ở dưới phần ảnh-->
+    <div id="p2">
+      MindX, startup lĩnh vực EdTech (công nghệ giáo dục) vừa hoàn tất vòng gọi
+      vốn Series A với khoản tiền đầu tư trị giá 3 triệu USD, được dẫn dắt bởi
+      quỹ đầu tư mạo hiểm Wavemaker Partners, cùng sự tham gia của Công ty Chứng
+      khoán Thiên Việt (TVS) và Beacon Fund.
+    </div>
+  </body>
+</html>

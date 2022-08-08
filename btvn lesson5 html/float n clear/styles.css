@@ -1,0 +1,22 @@
+
+#float1{
+    float: left;
+    position: relative;
+    
+    
+    
+}
+#p1{
+    
+    font-size: 20px;
+   
+}
+#float2{
+    clear: left;
+    float: right;
+}
+#p2{
+    font-size: 20px;
+    clear: right;
+}
+
