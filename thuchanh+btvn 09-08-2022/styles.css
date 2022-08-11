@@ -1,0 +1,190 @@
+.navbar {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  height: 76px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#mindx {
+  flex-grow: 10;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 20px;
+}
+.child {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+#login {
+  background-color: #0080ff;
+  height: 48px;
+  border: 1px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#signup {
+  background-color: black;
+  border-color: #0080ff;
+  border: 1px solid;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 870px;
+}
+.dong1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+}
+.dong2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 200;
+}
+#iammindxer {
+  background-image: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #6284ff 50%,
+    #ff0000 100%
+  );
+  background-color: #ffffff;
+}
+#myprojects {
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+  text-align: center;
+  padding: 10rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#headingprojects {
+  font-size: 4.2rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  color: white;
+}
+.cuasoto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 750px;
+  width: 1100px;
+}
+.cuaso {
+  width: 324px;
+  height: 298px;
+  display: flex;
+  flex-direction: column;
+}
+#divimg {
+  height: 241px;
+}
+
+.imgproject {
+  width: 324px;
+  height: 241px;
+}
+.projecttext {
+  background-color: black;
+  width: 324px;
+  height: 57px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  font-size: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 15px;
+}
+#showallbutton {
+  background-color: gray;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.mycontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #6284ff 50%,
+    #ff0000 100%
+  );
+  width: 100%;
+  height: 80vh;
+}
+.contacttitle {
+  color: #ffffff;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  padding: 15px;
+}
+.contacttext {
+  color: #ffffff;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 200;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+.contactlink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+}
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: large;
+}
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 105px;
+}
+.footertext {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
