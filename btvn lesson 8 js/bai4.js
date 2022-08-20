@@ -32,7 +32,7 @@ let isPrime = true;
 
 // number less than 2
 if( number < 2){
-        let isPrime = false;
+         isPrime = false;
 }
 let i = 2;
     while(i < number){
