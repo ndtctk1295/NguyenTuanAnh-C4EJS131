@@ -66,12 +66,28 @@ let year = date[2];
     case 16:
     case 27:
     case 28:
-    case 29:
         day = date[0]++
         console.log('day', date[0]);
         console.log('month', date[1]);
         console.log('year', date[2]);
         break;
+    case 29:
+        switch(month){
+            case 2:
+                if ( date[2] % 4 ==0 ){
+                    date[0] = 1;
+                    month = date[1]++;
+                    console.log('day', date[0]);
+                    console.log('month', date[1]);
+                    console.log('year', date[2]);
+                }
+                else{
+                    console.log('date not found')
+                }
+
+                break;
+        }
+        
 }
 
 
