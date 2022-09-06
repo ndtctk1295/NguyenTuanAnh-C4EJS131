@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--heading section start-->
+    <header>
+        <h1>Reading List</h1>
+        <h3>Reading list in 2022</h3>
+        <input type="text" placeholder="Search books..." id="search">
+    </header>
+    <!--heading section end-->
+    <!--title section start-->
+    <div class="title">
+        <h1>Books to Read</h1>
+    </div>
+    <!--title section end-->
+    <!--library section start-->
+
+    <ul class="library">
+        <li class="libraryunit">
+            <div>Lập trình web căn bản</div>
+            <button class="delbtn">delete</button>
+        </li>
+        <li class="libraryunit">
+            <div>Lập trình Fullstack Web</div>
+            <button class="delbtn">delete</button>
+        </li>
+        <li class="libraryunit">
+            <div>Lập trình Mobile App</div>
+            <button class="delbtn">delete</button>
+        </li>
+        <li class="libraryunit">
+            <div>Lập trình Nodejs</div>
+            <button class="delbtn">delete</button>
+        </li>
+    </ul>
+
+    <!--library section end!-->
+    <!--add book feature section start-->
+    <form class="addbook">
+        <input type="text" placeholder="Add a book..." id="newbook">
+        <button class="addbtn">Add</button>
+    </form>
+</body>
+<script src="./index.js"></script>
+
+</html>

@@ -1,0 +1,47 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.title {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 400px;
+}
+.libraryopen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.library {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.libraryunit {
+  display: flex;
+  justify-content: space-around;
+}
+.delbtn {
+  background-color: blueviolet;
+  color: #ffff;
+}
+.addbook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addbtn {
+  background-color: blueviolet;
+  color: #ffff;
+}
