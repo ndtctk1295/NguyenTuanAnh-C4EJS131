@@ -11,30 +11,33 @@ header {
   padding: 20px;
   background-color: whitesmoke;
 }
+#search {
+  font-size: larger;
+}
 .title {
   height: 100px;
   display: flex;
   align-items: center;
   padding-left: 400px;
 }
-.libraryopen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .library {
   height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 .libraryunit {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 1000px;
 }
 .delbtn {
   background-color: blueviolet;
   color: #ffff;
+  border-radius: 10px;
+  font-size: large;
 }
 .addbook {
   display: flex;
@@ -44,4 +47,11 @@ header {
 .addbtn {
   background-color: blueviolet;
   color: #ffff;
+  font-size: larger;
+}
+.bookName {
+  font-size: large;
+}
+#newBook {
+  font-size: larger;
 }

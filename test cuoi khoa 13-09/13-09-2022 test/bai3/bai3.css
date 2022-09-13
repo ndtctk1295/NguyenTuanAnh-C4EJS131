@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  height: auto;
+  font-family: sans-serif;
+}
+.container {
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#heading {
+  height: 50%;
+  font-family: sans-serif;
+}
+.menu {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.searchText {
+  display: flex;
+  flex-grow: 4;
+  font-family: sans-serif;
+  align-items: center;
+  border-style: solid;
+  border-radius: 8px;
+}
+#inputText {
+  font-family: sans-serif;
+  border-style: none;
+}
+#searchIcon {
+}
+.menuBtn {
+  display: flex;
+  flex-grow: 6;
+  justify-content: space-around;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+
+  width: 115px;
+  height: 56px;
+
+  background: white;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+#newUsers {
+  background-color: #849fff;
+  color: white;
+}
+.userContainer1 {
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.user {
+  display: flex;
+}
+.img {
+  padding: 5%;
+}
+.tag {
+  color: #516fd5;
+  border: solid;
+  border-color: #516fd5;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: small;
+}
