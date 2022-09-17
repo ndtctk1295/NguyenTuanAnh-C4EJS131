@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+header {
+  display: grid;
+  grid-template-columns: 20% 60%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+section {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#logoIMG {
+  height: 100%;
+  width: 50%;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+li {
+  padding-left: 10%;
+  list-style: none;
+}
+.closeBTN {
+  height: 24px;
+  width: 24px;
+}
+.itemIMG {
+  height: 100px;
+  width: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+.productInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 2%;
+}
+.productTitle {
+  flex-grow: 5;
+}
+.functionPayment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#backToMenuBTN{
+
+}
+#UpdateBTN{
+    
+}

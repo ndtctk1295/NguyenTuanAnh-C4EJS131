@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+    <!--nav bar start-->
+    <header>
+
+        <img src="./img/logo.png" id="logoIMG">
+        <!--logo-->
+
+
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact</a></li>
+            <li><a>Menu</a></li>
+            <li><a>Sign in</a></li>
+            <li><a>Your's cart</a></li>
+        </ul>
+
+    </header>
+    <!--nav bar end-->
+    <!--table payment start-->
+    <section>
+        <table>
+            <thead>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="productInfo">
+                        <button><span><img src="./img/closeimg.jpg" class="closeBTN"></span></button>
+                        <!--close img-->
+                        <img src="./img/item1.jpg" class="itemIMG">
+                        <!--img product-->
+                        <a class="productTitle">Product 1</a>
+                        <!--product title-->
+                    </td>
+                    <td>
+                        <div>100$</div>
+                    </td>
+                    <td><input value="1" type="number"></td>
+                    <td>
+                        <div>100$</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <!--table payment end-->
+        <div class="functionPayment">
+            <div id="backToMenuBTN"><a>Continue Shopping</a></div>
+            <div id="UpdateBTN"><button>Update Cart</button></div>
+        </div>
+    </section>
+    <!--table payment end-->
+</body>
+
+</html>
