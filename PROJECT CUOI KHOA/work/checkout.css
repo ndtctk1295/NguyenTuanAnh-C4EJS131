@@ -59,10 +59,76 @@ td {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 5%;
 }
-#backToMenuBTN{
-
+#backToMenuBTN {
+  color: white;
+  background-color: #f1c50e;
+  height: 5em;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#UpdateBTN{
-    
+#UpdateBTN,
+#checkoutBTN {
+  color: white;
+  background-color: #f1c50e;
+  height: 5em;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bigWrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.promoWrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 50% 50%;
+  padding: 5%;
+}
+.promoHeader {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-bottom: 5%;
+}
+.couponBTN {
+  padding-left: 2%;
+  background-color: #f1c50e;
+  color: white;
+}
+.totalWrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+}
+#cartTotals {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#checkoutBTN {
+  float: right;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.checkoutDIV {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 20%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
