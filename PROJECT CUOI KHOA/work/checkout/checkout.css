@@ -1,18 +1,18 @@
-/* header style start */
 * {
-  margin: 0;
   padding: 0;
   font-family: sans-serif;
   text-align: center;
 }
-
 header {
   display: grid;
-  grid-template-columns: 20% 50%;
+  grid-template-columns: 20% 60%;
   padding-left: 15%;
   padding-right: 15%;
-  background-color: #426d49;
-  color: white;
+}
+section {
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 #logoIMG {
   height: 100%;
@@ -26,24 +26,8 @@ li {
   padding-left: 10%;
   list-style: none;
 }
-a {
-  font-size: large;
-}
-a:link,
-a:visited {
-  color: white;
-}
-#cart {
-  background-color: #426d49;
-}
-#soluong {
-  color: black;
-}
-/* header style end */
-section {
-  padding-top: 5%;
-  padding-left: 15%;
-  padding-right: 15%;
+a:hover {
+  color: blueviolet;
 }
 .closeBTN {
   height: 24px;
@@ -143,15 +127,12 @@ td {
 footer {
   background-color: black;
   color: white;
-  margin-top: 5%;
+  margin-top: 20%;
+  margin-bottom: 0;
+  padding-bottom: 0;
   padding: 0;
   height: 100px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-}
-.icon {
-  width: auto;
-  height: 50%;
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

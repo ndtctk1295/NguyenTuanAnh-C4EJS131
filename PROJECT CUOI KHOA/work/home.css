@@ -18,13 +18,14 @@ header {
   height: 100%;
   width: 50%;
 }
-ul {
+.ul {
   display: flex;
   align-items: center;
 }
-li {
+.li {
   padding-left: 10%;
   list-style: none;
+  color: white;
 }
 a {
   font-size: large;
@@ -33,19 +34,65 @@ a:link,
 a:visited {
   color: white;
 }
-#cart {
-  background-color: #426d49;
-}
-#soluong {
-  color: black;
-}
-/* header style end */
 
+/* header style end */
+section {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: sans-serif;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.contentText {
+  padding: 10%;
+  text-align: justify;
+}
+h1,
+p {
+  text-align: left;
+  padding-top: 5%;
+  font-size: large;
+}
 h1 {
-  font-size: xx-large;
-  color: #426d49;
+  font-size: xxx-large;
 }
 i {
+  font-weight: lighter;
+}
+.goToMenuBTN {
+  color: white;
+  background-color: #426d49;
+  height: 5em;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.bigIMG {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.ul1 {
+  all: revert;
+  text-align: left;
+}
+.li1 {
+  text-align: left;
+  list-style: none;
+  padding-top: 5%;
+  font-weight: bold;
+}
+/*featured product style */
+#h1 {
+  font-size: xx-large;
+  color: #426d49;
+  text-align: center;
+}
+.i {
   font-weight: light;
   color: grey;
 }
@@ -77,56 +124,32 @@ i {
   align-items: flex-start;
   padding-left: 15%;
 }
-h2 {
+.h2 {
   font-weight: light;
   font-size: xx-large;
   text-align: left;
 }
-b {
+.b {
   color: #426d49;
 }
-button {
+.button {
   height: 5em;
   width: 10em;
 }
 .checkoutBTN {
-  height: 70px;
-  width: 225px;
+  height: 5em;
+  width: 10em;
+  background-color: #426d49;
+  color: white;
 }
 button:hover {
   background-color: #64e9b1;
 }
-.checkoutBTN:hover {
+input:hover {
   background-color: #64e9b1;
 }
 
-/* style mới add của Nga cart, searchbar */
-#cart {
-  display: flex;
-  background-color: lightgoldenrodyellow;
-  padding-left: 20px;
-  margin-left: 15px;
-}
-#container {
-  background-color: white;
-}
-
-#searchbar {
-  width: 500px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px rgb(230, 229, 221);
-  margin-top: 30px;
-  border: 1px solid grey;
-  height: 30px;
-}
-.timkiem {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-/*footer */
+/* featured product style end*/
 footer {
   background-color: black;
   color: white;
